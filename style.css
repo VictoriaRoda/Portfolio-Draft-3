@@ -1,0 +1,209 @@
+/*Headers*/
+header {
+  background-color:#05668D;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a:link {
+  color: #F0F3BD;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li a:visited {
+  color: #F0F3BD;
+}
+
+header h1 {
+  color: #F0F3BD;
+  text-align: center;
+  font-size: 46px;
+}
+
+h2 {
+  color: #028090;
+  font-size: 34px;
+}
+
+h3 {
+  color: #02C39A;
+  font-size: 26px;
+  text-align: center;
+}
+
+/*Main*/
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-box {
+  box-sizing: content-box;
+  border: solid #028090 15px;
+  text-align: justify;
+  color: #028090;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/*General*/
+img {
+  width: 100%;
+}
+
+hr {
+  width: 1;
+  color: #F0F3BD;
+  height: auto;
+}
+
+li {
+  font-size: 18px;
+}
+
+iframe {
+  display: flex;
+  margin-right: 260px;
+  margin-left: 75px;
+}
+
+footer a:link{
+  margin: 0 20px 0 0;
+}
+
+footer {
+  display:flex;
+  justify-content: center;
+}
+
+form {
+  margin-left: 150px;
+  margin-right: 25px;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  color: #F0F3BD;
+  text-align: left;
+}
+
+form input[type=text] {
+  height: 18px;
+  font-size: 16px;
+  width: 100%;
+}
+
+form textarea {
+  height: 4.75rem;
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+}
+
+a:link {
+  color: #05668D;
+}
+
+a:visited {
+  color: #ff5400;
+}
+
+/*Groups & Items-Mobile*/
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/*Groups & Items-Desktop*/
+@media all and (min-width: 600px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+  
+}
+
+/*Article Sections*/
+#home p {
+  font-size: 18px;
+  color: #028090;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+#home img {
+  margin-top: 15px;
+}
+
+#about, #services {
+  background-color: #00A896;
+  font-size: 18px;
+  color: #F0F3BD;
+  display: block;
+  padding: 10px 20px 10px 20px;
+}
+
+#about h2, #services h2 {
+  color: #F0F3BD;
+  text-align: center;
+}
+
+#about p {
+  text-align: justify;
+  margin-left: 20px;
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+#projects {
+  margin-bottom: 20px;
+}
+
+#services h3 {
+  color: #F0F3BD;
+  text-align: center;
+}  
+
+#services a:link {
+  color: #F0F3BD;
+}
+
+#contact {
+  padding-top: 10px;
+  background-color:#05668D;
+}
+
+
+
